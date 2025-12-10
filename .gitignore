@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore data files and outputs
+data_out/
+*.tif
+*.img
+*.aux.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
